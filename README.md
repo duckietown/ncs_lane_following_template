@@ -30,7 +30,7 @@ docker push [username]/ncs_lane_following .
 Plug in an NCS and run the following command on your duckiebot
 
 ```sh
-duckiebot $ docker run -it --name ncs_following --net host --privileged -v /dev:/dev -v /data:/data [username]/ncs_lane_following
+docker run -it --name ncs_following --net host --privileged -v /dev:/dev -v /data:/data [username]/ncs_lane_following
 ```
 
 ## How to use your own caffemodel to do prediction on ncs in this template
