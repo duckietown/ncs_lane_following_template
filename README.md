@@ -34,6 +34,12 @@ docker run -it --name ncs_following --net host --privileged -v /dev:/dev -v /dat
 ```
 
 ## How to use your own caffemodel to do prediction on ncs in this template
+Desktop environment
+```
+1. ubuntu 16.04
+2. NCSDK 1
+```
+
 1. First transfer caffemodel to ncs graph
 
 ```sh
