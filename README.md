@@ -37,7 +37,7 @@ docker run -it --name ncs_following --net host --privileged -v /dev:/dev -v /dat
 1. First transfer caffemodel to ncs graph
 
 ```sh
-xxx
+mvNCCompile [xxx.prototxt] -w [xxx.caffemodel] -o [xxx.graph]
 ```
 
 2. Move your graph file to ncs_following/models folder
