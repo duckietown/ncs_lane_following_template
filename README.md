@@ -47,3 +47,4 @@ xxx
 ## Image reference
 This docker image is built from a github project called [ncs_lane_following](https://github.com/ARG-NCTU/ncs_lane_following) under ARG-NCTU, which is made by [Peter Hung](https://github.com/losttime1001)
 
+<p align="center"><img src="img/duckie.jpg" width="480"\></p>
