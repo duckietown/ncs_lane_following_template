@@ -1,4 +1,5 @@
 # ncs-lane-following-template
+![Lane Following Demo](https://github.com/duckietown/img/demo.gif)
 ***
 
 ## ncs-lane-following-docker
@@ -34,10 +35,16 @@ docker run -it --name ncs_following --net host --privileged -v /dev:/dev -v /dat
 ```
 
 ## How to use your own caffemodel to do prediction on ncs in this template
+Development Environment
+```
+1. ubuntu 16.04
+2. NCSDK 1
+```
+
 1. First transfer caffemodel to ncs graph
 
 ```sh
-xxx
+mvNCCompile [xxx.prototxt] -w [xxx.caffemodel] -o [xxx.graph]
 ```
 
 2. Move your graph file to ncs_following/models folder
