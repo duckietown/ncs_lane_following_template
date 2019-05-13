@@ -1,4 +1,5 @@
 # ncs-lane-following-template
+![Lane Following Demo](https://github.com/duckietown/img/demo.gif)
 ***
 
 ## ncs-lane-following-docker
