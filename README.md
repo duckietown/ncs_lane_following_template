@@ -2,7 +2,7 @@
 ![Lane Following Demo](https://github.com/duckietown/ncs_lane_following_template/blob/master/img/demo.gif)
 ***
 
-## ncs-lane-following-docker
+## How to build docker images for Ncs-lane-following
 _In this tutorial we're going to build ncs-lane-following docker image for Raspberry Pi on x86 machine._
 
 1. First, install cross-compiling tool for building arm image on x86 machine. `./qemu-arm-static` is provided for Ubuntu 18.04, but if this does not work, run 
@@ -14,7 +14,7 @@ git clone https://github.com/duckietown/ncs_lane_following_template && \
     cp /usr/bin/qemu-arm-static .
 ```
 
-2. To build new docker image, run this command bellow on your favorite terminal
+2. To build new docker image, run this command bellow on your terminal
 
 ```sh
 docker build -t [username]/ncs_lane_following .
