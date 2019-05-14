@@ -9,7 +9,7 @@ _In this tutorial we're going to build ncs-lane-following docker image for Raspb
 
 ```sh
 git clone https://github.com/duckietown/ncs_lane_following_template && \
-    cd rpi-ncsdk-docker && \
+    cd ncs_lane_following_template && \
     sudo apt-get install qemu-user-static && \
     cp /usr/bin/qemu-arm-static .
 ```
