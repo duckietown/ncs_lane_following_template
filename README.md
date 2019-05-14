@@ -24,7 +24,7 @@ docker build -t [username]/ncs_lane_following .
 
 
 ```sh
-docker push [username]/ncs_lane_following .
+docker push [username]/ncs_lane_following
 ```
 
 ## How use this docker image
